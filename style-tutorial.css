@@ -1,0 +1,70 @@
+.tutorial-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #7a554d;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tutorial-container div{
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.tutorial-container h2 {
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tutorial-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: rgb(120, 160, 197);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.tutorial-container ul {
+    font-size: 18px;
+    background-color: #668d85;
+    padding: 20px;
+    padding-top: 1px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.tutorial-container li {
+    margin-bottom: 10px;
+}
+
+.tutorial-container h3 {
+    background-color: rgb(197, 120, 139);
+    padding: 10px;
+    border-radius: 8px;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 26px;
+}
+
+.btn-custom {
+    align-self: center;
+    max-width: 33%;
+    background-color: #668d85;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: rgb(197, 120, 139);
+    color: #ffffff;
+}

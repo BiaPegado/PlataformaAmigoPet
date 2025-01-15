@@ -1,0 +1,44 @@
+
+.historias{
+    margin: 40px;
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+.historias-content{
+    display: flex;
+    gap: 40px;
+    background-color: #7a554d;
+    padding: 30px;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+
+.historias-content img{
+    border-radius: 50px;
+}
+
+.historias-content svg{
+    margin-top: 28px;
+    margin-left: 100px;
+}
+.historias-content span{
+    width: 50%;
+    font-size: large;
+}
+img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.historias-content div{
+    margin-left: auto;
+    margin-right: 100px;
+    text-align: center;
+}
+
+
+hr{
+    border-color: #B39DDB;
+}

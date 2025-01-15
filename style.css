@@ -1,0 +1,357 @@
+@font-face {
+    font-family: 'fonte_logo';
+    src: url('font/CHICKEN\ Pie.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'normal';
+    src: url('font/Quicksand_Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'bold';
+    src: url('font/Quicksand_Bold.otf') format('opentype');
+}
+
+/* Body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e9d9d6; /* #d6ecff */
+    color: #ffffff; 
+    font-family: 'bold', sans-serif;
+}
+a{
+    color:rgb(255, 242, 186);
+}
+a:hover{
+    cursor: pointer;
+}
+
+h4 > a {
+    color: #344382;
+}
+
+/* Cabeçalho principal */
+#amigoPet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6e362c; /* #6e362c */
+    padding: 15px 50px;
+    color: #FFFFFF;
+}
+
+#amigoPet h1 {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'fonte_logo', sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#amigoPet div {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#amigoPet button, svg {
+    border: none;
+    border-radius: 20px;
+    background-color: #6e362c; 
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF; /* Texto branco */
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#amigoPet button:hover {
+    color: #ffffff; 
+}
+
+#amigoPet span button:hover {
+    background-color: rgb(197, 120, 139); 
+    color: #ffffff; 
+}
+
+.popup, .popup2{
+    position: relative;
+    display: inline-block;
+    gap: 0;
+}
+
+#botaopopup{
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 2px;
+    padding: 20px 100px;
+}
+
+.popup .popuptext, .popup2 .popuptext2{
+    visibility: hidden;
+    width: 420px;
+    background-color: #ffffff;
+    color: #344382; /* #ffffff */
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    top: 130%; 
+    left: 10%; 
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    transition: 0.3s;
+}
+
+.popup2 .popuptext2{
+    width: 200px;
+}
+
+.popup .popuptext.show, .popup2 .popuptext2.show{
+    visibility: visible;
+    opacity: 1;
+}
+  
+  /* Toggle this class - hide and show the popup */
+.popup .show, .popup2 .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Barra de navegação */
+.tab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6e362c; /* #6e362c */
+    padding: 10px 50px 0px;
+}
+
+#tab-links {
+    display: flex;
+    gap: 20px;
+}
+
+.tablinks {
+    background: none;
+    border: solid;
+    border-color: #6e362c;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff; 
+    cursor: pointer;
+    padding: 10px 0px 15px;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.tablinks:hover {
+    color: #e9d9d6; 
+    border-bottom: 3px solid #e9d9d6; 
+}
+
+/* Botões "Encontre seu Pet" */
+#EncontrePet {
+    display: flex;
+    gap: 10px;
+}
+
+#EncontrePet button {
+    border: none;
+    border-radius: 20px;
+    background-color: #e9d9d6; 
+    color: #6e362c;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#EncontrePet button:hover {
+    background-color: rgb(197, 120, 139);  
+    color: #ffffff; 
+}
+
+.corpo{
+    display: flex;
+}
+
+.corpo > div{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0; 
+    padding: 0;
+}
+
+.hero-image{
+    background-image: url("img/fundo.webp");
+    width: 100%; 
+    height:650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0; 
+    padding: 0;
+}
+
+.hero-text{
+    font-family: 'fonte_logo', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    padding:30px;
+}
+.corpo .corpoEsquerda{
+    width: 15%;
+}
+
+ul{
+    list-style-type: none;
+    padding: 10px;
+    padding-left: 35px;
+}
+
+ul > li{
+    font-size:18px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+li > a{
+    color: #6e362c;
+}
+
+li > a:hover{
+    text-decoration: none;
+    color: #603482;
+    cursor: pointer;
+}
+
+
+#myCarousel{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 700px;
+}
+
+.carousel-inner .item img {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-control.left {
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+}
+.carousel-control.right {
+    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+}
+.carousel-control {
+    color: black;
+}
+.carousel-control:focus, .carousel-control:hover {
+    color: black;
+}
+
+
+/* Como Funciona */
+.como-funciona{
+    background-color: #e9d9d6;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+#como-funciona-title{
+    max-width: 50%;    
+    text-align: center;
+    align-self: center;
+    color: #344382;
+}
+
+/* Opções de cash or card */
+.como-funciona-explicacao{
+    display: flex;
+}
+
+.como-funciona-explicacao div{
+    display: flex;
+    background-color: #668d85;
+    border-radius: 50px;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+    width: 33%;
+    padding: 100px 40px 40px 40px;
+}
+.como-funciona-explicacao span{
+    text-align: center;
+}
+
+footer{
+    margin: 0px;
+    background-color: #6e362c;
+}
+
+.footer-section li  a{
+    color: rgb(255, 242, 186);
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 2%;
+}
+
+.footer-section p, a{
+    font-size: medium;
+}
+
+.footer-section .insert-email{
+    background-color: #e9f5ff;
+    border-color: #ffffff;
+    border-radius: 5px;
+}
+
+.footer-section .submit-email{
+    border-color: #ffffff;
+    background-color: #6e362c;
+    color: #e9f5ff;
+    border-radius: 5px;
+    width: 130px;
+    height: 28px;
+    font-size: small;
+}
+
+.footer-bottom{
+    padding: 30px;
+}
+
+#pagination{
+    text-align: center; 
+    margin-top: 20px;
+}
+
+#pagination button{
+    background-color:#7a554d;
+    border: none;
+}

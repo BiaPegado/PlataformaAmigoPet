@@ -1,0 +1,119 @@
+
+.corpo-pesquisa{
+    display: flex;
+    margin: 40px;
+    background-color: #7a554d;
+    border-radius: 50px;
+}
+
+.corpo-pesquisa img {
+    border-radius: 50px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    color:#344382;
+}
+
+.caixa-pesquisa {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(120, 160, 197);
+    border-radius: 4px;
+    margin: 20px;
+    margin-right: 10px;
+    width:100% !important;
+}
+
+.search-bar button, .filter-button {
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(120, 160, 197); 
+    color: #FFFFFF;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.search-bar button:hover, .filter-button:hover {
+    background-color: rgb(197, 120, 139);
+    color: #FFFFFF; 
+}
+
+.search-results{
+    margin: 70px;
+    margin-top: 30px;
+}
+
+.search-results img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.search-results-content{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+    align-items: flex-start;
+}
+
+.search-results-content span{
+    width: 60%;
+    font-size: large;
+}
+.filters {
+    margin: 20px 90px;
+    margin-right: 50px;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.filters h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.filter-input, .filter-select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition: all 0.3s;
+    color:#344382;
+}
+
+.filter-input:focus, .filter-select:focus {
+    border-color: #344382;
+    outline: none;
+}
+
+.filter-input {
+    margin-bottom: 20px;
+}
+
+.filter-button:hover {
+    background-color: rgb(197, 120, 139);
+    color: #FFFFFF; 
+}
+
+
+.filter-button {
+    width: 100%;
+}
+
+

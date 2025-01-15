@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <title>Amigo Pet - Histórias de Sucesso</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style-hist-de-sucesso.css"/>
+</head>
+<body>
+  <div id="amigoPet">
+      <h1> AMIGO PET </h1>
+      <div>
+        <div class="popup2">
+          <button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: scale(1.5);"><path d="M12 4.595a5.904 5.904 0 0 0-3.996-1.558 5.942 5.942 0 0 0-4.213 1.758c-2.353 2.363-2.352 6.059.002 8.412l7.332 7.332c.17.299.498.492.875.492a.99.99 0 0 0 .792-.409l7.415-7.415c2.354-2.354 2.354-6.049-.002-8.416a5.938 5.938 0 0 0-4.209-1.754A5.906 5.906 0 0 0 12 4.595zm6.791 1.61c1.563 1.571 1.564 4.025.002 5.588L12 18.586l-6.793-6.793c-1.562-1.563-1.561-4.017-.002-5.584.76-.756 1.754-1.172 2.799-1.172s2.035.416 2.789 1.17l.5.5a.999.999 0 0 0 1.414 0l.5-.5c1.512-1.509 4.074-1.505 5.584-.002z"></path></svg>
+          </button>
+          <span class="popuptext2" id="myPopup2">
+            <h4>Favoritos</h4>
+          </span>
+        </div>
+        <div class="popup">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: scale(1.5);"><path d="M12 2a5 5 0 1 0 5 5 5 5 0 0 0-5-5zm0 8a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm9 11v-1a7 7 0 0 0-7-7h-4a7 7 0 0 0-7 7v1h2v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1z"></path></svg>
+          <button>Entrar | Cadastrar</button>
+          <span class="popuptext" id="myPopup">
+            <button id="botaopopup" onclick="window.location.href='login.html'"><h4>Entrar</h4></button> 
+            <h4>Não tem uma conta? <a href='cadastro.html'>Cadastre-se</a></h4>
+          </span>
+        </div>
+      </div>
+      
+  </div>
+  <nav class="tab">
+      <!-- Botões do lado esquerdo -->
+      <div id="tab-links">
+        <button class="tablinks" onclick="window.location.href='index.html'">HOME</button>
+        <button class="tablinks" onclick="window.location.href='buscarAbrigos.html'">ABRIGOS</button>
+        <button class="tablinks" onclick="window.location.href='historiasSucesso.html'">HISTÓRIAS DE SUCESSO</button>
+      </div>
+      <!-- Barra de pesquisa -->
+      <div id="EncontrePet">
+        <button onclick="window.location.href='buscarPets.html'"> Encontre seu pet </button>
+        <button onclick="window.location.href='tutorial.html'"> Por onde começar? </button>
+    </div>
+  </nav>
+  <div class="historias">
+    <div id="page-1" class="pagina" style="display: block;">
+        <div class="historias-content" style="margin-bottom: 20px;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="-5.5 -5.5 35 35" style="fill: rgba(52, 67, 130, 1); background-color:#e9f5ff; transform: scale(2);"><path d="M12 2C6.579 2 2 6.579 2 12s4.579 10 10 10 10-4.579 10-10S17.421 2 12 2zm0 5c1.727 0 3 1.272 3 3s-1.273 3-3 3c-1.726 0-3-1.272-3-3s1.274-3 3-3zm-5.106 9.772c.897-1.32 2.393-2.2 4.106-2.2h2c1.714 0 3.209.88 4.106 2.2C15.828 18.14 14.015 19 12 19s-3.828-.86-5.106-2.228z"></path></svg>
+            <span>
+                <h1>User #1</h1>
+                <p>Sempre sonhei em ter um cachorro, mas minha rotina não permitia que eu me comprometesse com um animal. Um dia, enquanto navegava no Amigo Pet, vi Luna, uma cachorrinha de porte pequeno, com um olhar doce e triste. Ela havia sido resgatada das ruas e estava em um abrigo esperando por uma chance. Fiquei encantada pela foto e decidi que precisava conhecê-la.</p>
+                <p>Hoje, Luna é minha companheira inseparável. Ela trouxe tanta alegria e amor à minha vida, e eu não poderia estar mais feliz por ter dado a ela a chance de ser feliz também. A história dela e a minha se entrelaçaram para sempre, graças ao Amigo Pet.</p>
+            </span>
+            <div>
+              <img src="img/hist-1-luna.png" alt="Luna">
+              <p>Luna, 1 ano</p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="historias-content" style="margin-bottom: 20px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="-5.5 -5.5 35 35" style="fill: rgba(52, 67, 130, 1); background-color:#e9f5ff; transform: scale(2);"><path d="M12 2C6.579 2 2 6.579 2 12s4.579 10 10 10 10-4.579 10-10S17.421 2 12 2zm0 5c1.727 0 3 1.272 3 3s-1.273 3-3 3c-1.726 0-3-1.272-3-3s1.274-3 3-3zm-5.106 9.772c.897-1.32 2.393-2.2 4.106-2.2h2c1.714 0 3.209.88 4.106 2.2C15.828 18.14 14.015 19 12 19s-3.828-.86-5.106-2.228z"></path></svg>
+          <span>
+              <h1>User #2</h1>
+              <p>Sempre tive um sonho de adotar um gato, mas nunca soube por onde começar. Até que, um dia, vi o site Amigo Pet. Ao navegar por lá, encontrei o Max, um gatinho cinza com olhos grandes e curiosos, que tinha sido encontrado em uma rua movimentada e estava à espera de um lar. A imagem dele me tocou profundamente, e não hesitei em entrar em contato com o abrigo.</p>
+              <p>Agora, Max é o rei da casa. Sua energia e carinho transformaram o meu lar em um lugar mais feliz. Ele é meu amigo leal, e a cada dia que passa, fico mais grata por tê-lo encontrado no Amigo Pet. A nossa história de amor começou com um clique, e agora vivemos uma vida cheia de risadas e purring.</p>
+          </span>
+          <div>
+            <img src="img/hist-2-max.png" alt="Max">
+            <p>Max, 2 anos</p>
+          </div>
+        </div>
+
+        <hr>
+
+        <div class="historias-content" style="margin-bottom: 20px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="-5.5 -5.5 35 35" style="fill: rgba(52, 67, 130, 1); background-color:#e9f5ff; transform: scale(2);"><path d="M12 2C6.579 2 2 6.579 2 12s4.579 10 10 10 10-4.579 10-10S17.421 2 12 2zm0 5c1.727 0 3 1.272 3 3s-1.273 3-3 3c-1.726 0-3-1.272-3-3s1.274-3 3-3zm-5.106 9.772c.897-1.32 2.393-2.2 4.106-2.2h2c1.714 0 3.209.88 4.106 2.2C15.828 18.14 14.015 19 12 19s-3.828-.86-5.106-2.228z"></path></svg>
+          <span>
+              <h1>User #3</h1>
+              <p>Sempre acreditei que um animal de estimação poderia mudar a vida de alguém, mas por um bom tempo, fui relutante em adotar. Foi quando encontrei a Sophie, uma cachorrinha de tamanho médio, com um sorriso encantador e olhos cheios de esperança. Ela estava em um abrigo e foi resgatada após ser abandonada. Ao ver sua foto no Amigo Pet, algo no meu coração me disse que ela era a escolha certa.</p>
+              <p>Hoje, Sophie é minha fonte constante de felicidade. Ela tem me ensinado sobre paciência, amor e lealdade. Minha vida se encheu de aventuras e risos desde que ela entrou nela. Agradeço ao Amigo Pet por me permitir fazer parte da história dela e por dar a Sophie uma chance de ter o lar que ela merecia.</p>
+          </span>
+          <div>
+            <img src="img/hist-3-sophie.png" alt="Sophie">
+            <p>Sophie, 1 ano</p>
+          </div>
+        </div>
+    </div>
+    <div id="page-2" class="pagina" style="display: none;">
+      <div class="historias-content" style="margin-bottom: 20px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="-5.5 -5.5 35 35" style="fill: rgba(52, 67, 130, 1); background-color:#e9f5ff; transform: scale(2);"><path d="M12 2C6.579 2 2 6.579 2 12s4.579 10 10 10 10-4.579 10-10S17.421 2 12 2zm0 5c1.727 0 3 1.272 3 3s-1.273 3-3 3c-1.726 0-3-1.272-3-3s1.274-3 3-3zm-5.106 9.772c.897-1.32 2.393-2.2 4.106-2.2h2c1.714 0 3.209.88 4.106 2.2C15.828 18.14 14.015 19 12 19s-3.828-.86-5.106-2.228z"></path></svg>
+          <span>
+              <h1>User #4</h1>
+              <p>Eu nunca pensei que teria um gato, até conhecer Miau. Ela foi resgatada de um estacionamento e tinha muita dificuldade em confiar nas pessoas. Vi sua foto no Amigo Pet e algo em seu olhar tímido me cativou. Decidi que daria a ela um lar cheio de segurança e carinho.</p>
+              <p>Agora, Miau é minha melhor amiga. Ela transformou cada dia em um aprendizado sobre paciência e amor. Sou grata por tê-la ao meu lado e por vê-la florescer em sua nova casa. Obrigada, Amigo Pet!</p>
+          </span>
+          <div>
+            <img src="img/hist-4-miau.jpg" alt="miau">
+            <p>Miau, 4 anos</p>
+          </div>
+      </div>
+      <hr>
+
+      <div class="historias-content" style="margin-bottom: 20px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="-5.5 -5.5 35 35" style="fill: rgba(52, 67, 130, 1); background-color:#e9f5ff; transform: scale(2);"><path d="M12 2C6.579 2 2 6.579 2 12s4.579 10 10 10 10-4.579 10-10S17.421 2 12 2zm0 5c1.727 0 3 1.272 3 3s-1.273 3-3 3c-1.726 0-3-1.272-3-3s1.274-3 3-3zm-5.106 9.772c.897-1.32 2.393-2.2 4.106-2.2h2c1.714 0 3.209.88 4.106 2.2C15.828 18.14 14.015 19 12 19s-3.828-.86-5.106-2.228z"></path></svg>
+        <span>
+            <h1>User #5</h1>
+            <p>Adotar um animal sempre foi um sonho, mas parecia algo distante para mim. Tudo mudou quando conheci Thor no Amigo Pet. Ele era um cãozinho com muita energia e tinha sido resgatado de uma situação de maus-tratos. Sua história me emocionou profundamente, e eu sabia que ele precisava de um lar cheio de amor.</p>
+            <p>Hoje, Thor é minha fonte diária de alegria. Suas brincadeiras e carinho transformaram minha casa em um verdadeiro lar. Não consigo imaginar minha vida sem ele. Obrigada, Amigo Pet, por fazer isso possível!</p>
+        </span>
+        <div>
+          <img src="img/hist-5-thor.jpg" alt="Thor">
+          <p>Thor, 1 ano</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="historias-content" style="margin-bottom: 20px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="-5.5 -5.5 35 35" style="fill: rgba(52, 67, 130, 1); background-color:#e9f5ff; transform: scale(2);"><path d="M12 2C6.579 2 2 6.579 2 12s4.579 10 10 10 10-4.579 10-10S17.421 2 12 2zm0 5c1.727 0 3 1.272 3 3s-1.273 3-3 3c-1.726 0-3-1.272-3-3s1.274-3 3-3zm-5.106 9.772c.897-1.32 2.393-2.2 4.106-2.2h2c1.714 0 3.209.88 4.106 2.2C15.828 18.14 14.015 19 12 19s-3.828-.86-5.106-2.228z"></path></svg>
+        <span>
+            <h1>User #6</h1>
+            <p>Quando vi a foto de Chico no Amigo Pet, foi amor à primeira vista. Ele era um coelho fofinho e curioso, mas que havia sido abandonado em um parque. Sempre quis um companheiro tranquilo e carinhoso, e Chico parecia perfeito para mim.</p>
+            <p>Hoje, ele é o rei da casa. Com seu jeitinho especial, Chico trouxe leveza e alegria para os meus dias. Adotar foi a melhor decisão que tomei, e sou eternamente grato ao Amigo Pet por conectar nossas histórias.</p>
+        </span>
+        <div>
+          <img src="img/hist-6-chico.jpg" alt="Chico">
+          <p>Chico, 8 meses</p>
+        </div>
+      </div>
+  </div>
+
+    <div id="pagination">
+        <button onclick="changePreviousPage()" style="margin-right: 5px;"><</button>
+        <button onclick="changePage(1)" style="margin-right: 5px;">1</button>
+        <button onclick="changePage(2)">2</button>
+        <button onclick="changeNextPage()" style="margin-right: 5px;">></button>
+    </div>
+</div>
+</body>
+
+<footer>
+  <div class="footer-content">
+      <div class="footer-section">
+          <h4>Sobre Nós</h4>
+          <p>Somos uma plataforma dedicada à adoção de animais, conectando pessoas com pets que precisam de um novo lar.</p>
+      </div>
+      <div class="footer-section">
+          <h4>Contato</h4>
+          <p>Email: contato@amigopet.com</p>
+          <p>Telefone: (84) 91234-5678</p>
+      </div>
+      <div class="footer-section">
+          <h4>Links Rápidos</h4>
+          <a href="#">Sobre</a>
+          <a href="#">Termos de Serviço</a>
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Perguntas Frequentes</a>
+          
+      </div>
+      <div class="footer-section">
+          <h4>Siga-nos</h4>
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#" target="_blank">Twitter</a>
+      </div>
+  </div>
+  <div>
+    <hr style="border-color: #d6ecff; border-width: 3px;">
+    <div class="footer-section">
+      <h4>Inscreva-se para novidades</h4>
+      <form action="#">
+        <input class="insert-email"type="email" name="email" placeholder="Seu e-mail" required>
+        <button class="submit-email" type="submit">Inscrever-se</button>
+      </form>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2024 Amigo Pet. Todos os direitos reservados.</p>
+    </div>
+  </div>
+</footer>
+</html>

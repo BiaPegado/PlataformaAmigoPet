@@ -1,0 +1,18 @@
+Paleta de cores do projeto (Nova)
+#e9d9d6
+#6e362c
+#7a554d
+rgb(197, 120, 139)
+rgb(120, 160, 197)
+#668d85
+
+Paleta de cores do projeto (Antiga)
+#d6ecff - Azul Claro
+#344382 - Azul Escuro
+#B39DDB - Roxo Claro
+#FFFFFF - Branco
+#FDFD96 - Amarelo Claro
+#D1C4E9 - Lilás Claro
+#A3CEF1 - Azul Claro
+#e9f5ff - Azul Pastel
+#603482 - Roxo Escuro
